@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navigation{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(51,51,51);
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+nav{
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: 6px;
+    padding: 15px;
+}
+nav a:hover{
+    background-color: rgba(255, 255, 255,.1);
+}
+header{
+    background-image: url("../IMAGES/project3.jpeg");
+    min-height:657px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right;
+}
+h1{
+    font-size:63px;
+    font-weight: bolder;
+}
+#main{
+    z-index: -1;
+}
+#content h2{
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+}
+#content{
+    max-width: 90%;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 3px;
+    position: relative;
+    top: 200px;
+    left:50px   
+}
+#content p{
+font-size: 20px;
+position: relative;
+top: 40px;
+line-height: 30px;
+}
+#music{
+    background-color:rgb(37,37,41) ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1200px;
+    position: relative;
+}
+#music #musiccontent{
+    max-width: 90%;
+    text-align: center;
+    line-height: 25px;
+    word-spacing: 3px;
+    position: relative;
+    left:50px;
+}
+#music h2{
+    position: relative;
+    top: 30px;
+    font-size: 40px;
+}
+#music h3{
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+}
+#music article{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 30px;
+}
+#music a{
+    text-align: center;
+    position: relative;
+    top: 80px;
+    background-color:rgb(185,4,21);
+    font-size: 15px;
+}
+#music p{
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+#music a:hover{
+    background-color:rgb(214, 26, 26);
+}
+#music img{
+    position: relative;
+    top:100px ;
+    left: 75px;
+}
+#tv{
+    background-color:rgb(244,244,244) ;
+    height: 1380px;
+}
+#tvcontent{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    width: 90%;
+    padding: 20px;
+    position: relative;
+    top:30px;
+    left: 50px;
+   
+}
+#tvcontent a{
+    background-color: rgb(16,48,99);
+    font-size: 15px;
+    line-height: 25px;
+}
+#tvcontent a:hover{
+    background-color: rgb(20, 75, 145);
+    position:relative;
+
+}
+#tvcontent h2{
+    color:rgb(57,51,51) ;
+    padding: 20px;
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+}
+#tvcontent article{
+    color: rgb(51,51,105);
+    line-height: 30px;
+    font-size: 21px;
+}
+#tv img{
+    position: relative;
+left: 90px;
+}
+#last{
+    background-image: url("../IMAGES/project34.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 500px;
+}
+#last #lastcontent{
+    width: 90%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    line-height: 30px;
+    left:55px;
+    top:140px;
+}
+#lastcontent h2{
+    font-size: 30px;
+}
+#lastcontent p{
+    line-height: 30px;
+    font-size: 21px;
+}
+#giftcards{
+    height: 500px;
+    background-color:rgb(244,244,244) ;
+}
+#giftcards #giftcontent{
+width: 600px;    
+text-align: left;
+line-height: 25px;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+position: relative;
+top: 40px;
+left: 650px;
+}
+#giftcards h2{
+    color: rgb(51,51,51);
+}
+#giftcards p{
+    color:rgb(51,51,51) ;
+}
+#giftcards a{
+    color: rgb(51,51,51);
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    left: -20px;
+}
+#giftcards img{
+    position: absolute;
+    top: 0px;
+    left: -630px;
+}
+#more{
+    width: 100%;
+    height: 260px;
+    background-color:rgb(37,37,41) ;
+  
+}
+#morecontent h4{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#more #morecontent section{
+    width: 200px;
+    padding: 30px;
+}
+#morecontent{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+#morecontent a{
+    color:rgb(204,204,204) ;
+
+}
+ul{
+    font-size: 20px;
+}
+li{
+ line-height: 20px;
+}
+#morecontent hr{
+    border: 0.5px solid rgb(68,68,68);
+}
+footer{
+    height: 50px;
+    text-align: center;
+    background-color: rgb(51,51,51);
+    position: relative;
+    bottom: 0px;
+   
+}
+footer article{
+    position:relative;
+    top:20px;
+    color: white;
+    font-family: sans-serif;
+
+}
